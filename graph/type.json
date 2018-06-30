@@ -1,0 +1,4 @@
+{
+  "User": "github.com/s-ichikawa/gql-todo/graph.User",
+  "Todo": "github.com/s-ichikawa/gql-todo/graph.Todo"
+}
