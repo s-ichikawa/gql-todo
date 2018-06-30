@@ -1,8 +1,7 @@
 type Todo {
     id: ID!
     text: String!
-    done: Boolean!
-    user: User!
+    user: User
 }
 
 type User {
@@ -11,7 +10,9 @@ type User {
 }
 
 type Query {
-    todo(id: String!): Todo!
+    user(id: String!): User
+    users: [User!]!
+    todo(id: String!): Todo
     todos: [Todo!]!
 }
 
